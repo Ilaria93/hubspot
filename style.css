@@ -134,6 +134,9 @@ p{
 .powerful-up{
     padding: 60px;
 }
+.powerful-center{
+    padding-bottom: 60px;
+}
 .powerful-up button{
     padding:10px 40px;
 }
@@ -177,4 +180,36 @@ p{
 .box:hover{
     box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
     transform: scale(1.014);
+}
+.blue{
+    color:white;
+    background-image: linear-gradient(to right, #00a4bd, #00bba7);
+}
+.nr-top{
+    padding: 60px;
+}
+.nr-top h2, .nr-box h2{
+    color:white;
+}
+.nr-box{
+    width: 25%;
+    padding:10px;
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+    float:left;
+}
+.nr-box img{
+    padding: 10px;
+    max-width: 150px;
+    max-height: 100%;
+}
+.nr-box i{
+    font-size: 10px;
+
+}
+.nr-box2{
+    border-bottom: 0;
+}
+.nr-box3{
+    border-right: 0;
 }
