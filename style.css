@@ -196,6 +196,7 @@ p{
     padding:10px;
     border-bottom: 1px solid white;
     border-right:1px solid white;
+    position: relative;
     float:left;
 }
 .nr-box img{
@@ -205,11 +206,67 @@ p{
 }
 .nr-box i{
     font-size: 10px;
-
+    position: absolute;
+    top: 46%;
+    right: 30%;
 }
 .nr-box2{
     border-bottom: 0;
 }
 .nr-box3{
     border-right: 0;
+}
+.Growup{
+    background-color: white;
+    padding:60px 0;
+}
+.growup-top-left{
+    width: 50%;
+    display:inline-block;
+    padding:50px;
+    float: left;
+}
+.growup-top-right{
+    width: 50%;
+    display:inline-block;
+    float: left;
+}
+.loghi{
+    width: 25%;
+    display:inline-block;
+    float: left;
+}
+.loghi-top{
+    padding:15px;
+}
+.loghi img{
+    width: 100%;
+    padding:0 15px ;
+    max-height: 100%;
+}
+.loghi-bottom{
+    padding:15px;
+}
+.growup-bottom{
+    padding: 60px;
+    padding-top: 0;
+}
+.growup-bottom-left{
+    width: 65%;
+    float: left;
+    padding: 38px;
+    padding-left: 0;
+}
+.growup-bottom-right{
+    width: 35%;
+    float: left;
+    padding:25px;
+    padding-right: 0;
+}
+.growup-bottom-right img{
+    max-width: 100%;
+}
+#last{
+    font-size: 12px;
+    margin:20px 0;
 }
